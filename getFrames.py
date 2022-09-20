@@ -14,16 +14,7 @@ def m_slice(path, dir, step, extension):
         
         if flag == True:
             if True in check:
-                if i < 10:
-                    path_out = path_head + '0000' + str(i) + extension
-                elif i < 100:
-                    path_out = path_head + '000' + str(i) + extension
-                elif i < 1000:
-                    path_out = path_head + '00' + str(i) + extension
-                elif i < 10000:
-                    path_out = path_head + '0' + str(i) + extension
-                else:
-                    path_out = path_head + str(i) + extension
+                path_out = path_head + str(i).zfill(8) + extension
                 cv2.imwrite(path_out, frame)
             else:
                 pass
