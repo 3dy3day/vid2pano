@@ -10,7 +10,7 @@ These codes will extract frames from a video and stitch them together to create 
 ## How to use
 1. Run ```pip install -r requirements.txt``` (If you already satisfy the requirements, skip this step)
 2. Choose a video to process, and move it into "video_source"
-3. Run "python3 main.py"
+3. Run ```python3 main.py```
 4. The generated panorama image will be exported to "output"
 
 ## Copyright
