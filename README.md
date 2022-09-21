@@ -7,6 +7,12 @@ These codes will extract frames from a video and stitch them together to create 
 - OpenCV
 - NumPy
 
+## Directory structure
+.
+├─frames (Temporary files are placed here.)
+├─output (The generated image will be placed here.)
+└─video_source (Place original video for generating panorama photo here.)
+
 ## How to use
 1. Run ```pip install -r requirements.txt``` (If you already satisfy the requirements, skip this step)
 2. Choose a video to process, and move it into "video_source"
