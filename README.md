@@ -8,10 +8,10 @@ These codes will extract frames from a video and stitch them together to create 
 - NumPy
 
 ## Directory structure
-.
-├─frames (Temporary files are placed here.)
-├─output (The generated image will be placed here.)
-└─video_source (Place original video for generating panorama photo here.)
+.  
+├─frames (Temporary files are placed here.)  
+├─output (The generated image will be placed here.)  
+└─video_source (Place original video for generating panorama photo here.)  
 
 ## How to use
 1. Run ```pip install -r requirements.txt``` (If you already satisfy the requirements, skip this step)
@@ -20,5 +20,5 @@ These codes will extract frames from a video and stitch them together to create 
 4. The generated panorama image will be exported to "output"
 
 ## Copyright
-Copyright (C) 2015-2022, OpenCV Foundation, all rights reserved.
+Copyright (C) 2015-2022, OpenCV Foundation, all rights reserved.  
 Copyright (C) 1995-2022, NumPy community, all rights reserved.
